@@ -6,4 +6,3 @@ while order <= 1001:
     cout = cmd + str(order)
     order = order + 1
     os.system(cout)
-print('####')

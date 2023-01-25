@@ -6,10 +6,9 @@
 * Python3 + requests + lxml
 
 ## Usage:
-1、将群号放入第30行<br>
-2、Cookie: p_skey=****************************_; p_uin=o123456789; uin=o123456789; skey=@*******
-
-> 
+1. 修改`main.py`中的`cookie`和`group_id`.<br>
+>Cookie: p_skey=****************************_; p_uin=o123456789; uin=o123456789; skey=@*******
+2. Run `main.py`.
 
 <br>如图所示，在配置好的情况下 使用以下方式即可获得精华消息
 

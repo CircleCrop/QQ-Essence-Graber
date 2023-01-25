@@ -2,7 +2,17 @@ import requests
 from lxml import etree
 import sys
 import random
+#qcookie = str(input("Example:p_skey=************************; p_uin=o123456; uin=o123456; skey=********: "))
+#qgroup = str(input("QQ Group number:"))
 
+qcookie = ''
+qgroup = ''
+
+def dl_img(urlin):
+    url = urlin[0:-10]
+    res = requests.get(url)
+    with open('test.jpg', 'wb') as f:
+        f.write(res.content)
 
 def _type(a, pages="1"):
     span = "/span[" + pages + "]/text()"
@@ -27,7 +37,7 @@ def random_len(length):
 
 
 count = sys.argv[1]
-group_id = ''
+group_id = qgroup
 url = 'https://qun.qq.com/essence/indexPc?gc=' + group_id + '&seq=' + str(random_len(8)) + '&random=' + str(random_len(10))
 
 header = {
@@ -37,7 +47,7 @@ header = {
     # cookie 只需要 p_skey p_uin uin skey
     # p_uin 和 uin QQ号前面有个o不要认成0更不要漏掉
     # cookie样例: p_skey=************************; p_uin=o{qq号}; uin=o{QQ号}; skey=********
-    'Cookie': ''
+    'Cookie': qcookie
 }
 
 response = requests.get(url, headers=header)
@@ -90,5 +100,6 @@ else:
         else:
             if content[-10:] == "/thumbnail" and content[:8] == "https://":
                 print(content[0:-10])
+                dl_img(content)
             else:
                 print(content)

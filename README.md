@@ -9,10 +9,6 @@
 > pip install lxml
 ```
 
-
-## Reveal:
-![效果图](https://github.com/User-Time/requests_qq_essence/blob/main/image/actual%20effect.png "效果图")
-
 ## Usage:
 1、将群号放入第30行<br>
 2、将抓到的 cookie 放入到第40行 cookie 中即可。
@@ -33,5 +29,6 @@ const execSync = require('child_process').execSync;
 out = execSync('python3 ./essence.py '+1)).toString()
 ```
 ## connect
+(Main Author)
 Discord：Time#4381
 <br>QQ: 583416178

@@ -1,8 +1,6 @@
-import sys, os, subprocess
+import essence
+
 order = 1
-cmd = 'python essence.py '
-while order <= 1001:
-    print('####')
-    cout = cmd + str(order)
-    order = order + 1
-    os.system(cout)
+group_id = 11111
+cookie = ''
+print(essence.get(order,group_id,cookie))

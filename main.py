@@ -1,4 +1,5 @@
 import essence
-#for i in range(1000):
-#    essence.get(1)
-print(essence.get(1))
+order = 1
+group_id = 11111
+cookie = ''
+

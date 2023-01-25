@@ -1,8 +1,4 @@
-import sys, os, subprocess
-order = 1
-cmd = 'python essence.py '
-while order <= 1001:
-    print('####')
-    cout = cmd + str(order)
-    order = order + 1
-    os.system(cout)
+import essence
+#for i in range(1000):
+#    essence.get(1)
+print(essence.get(1))

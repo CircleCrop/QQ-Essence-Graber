@@ -2,7 +2,17 @@ import requests
 from lxml import etree
 import sys
 import random
+#qcookie = str(input("Example:p_skey=************************; p_uin=o123456; uin=o123456; skey=********: "))
+#qgroup = str(input("QQ Group number:"))
 
+qcookie = ''
+qgroup = ''
+
+def dl_img(urlin):
+    url = urlin[0:-10]
+    res = requests.get(url)
+    with open('test.jpg', 'wb') as f:
+        f.write(res.content)
 
 def _type(a, pages="1"):
     span = "/span[" + pages + "]/text()"

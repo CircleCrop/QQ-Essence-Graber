@@ -55,8 +55,6 @@ def get(num, group_id, cookie):
     response = requests.get(url, headers=header)
     response.encoding = 'UTF-8'
     data = etree.HTML(response.text)  # 解析
-    
-    
     type_list = []
     div_bool = False
     try:

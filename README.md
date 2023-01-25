@@ -1,4 +1,4 @@
-# QQ群精华消息爬虫 requests_qq_essence
+# QQ Essence Graber
 
 * 必须使用Python3，不兼容Python2
 * 基于 Requests 库与 lxml 库 进行开发必须使用pip进行安装

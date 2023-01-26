@@ -6,9 +6,16 @@
 * Python3 + requests + lxml
 
 ## Usage:
-1. 修改 `main.py` 中的 `cookie` 和 `group_id` .<br>
+1. Change `cookie` `group_id` in  `main.py` .<br>
 >Cookie: p_skey=****************************_; p_uin=o123456789; uin=o123456789; skey=@*******
 2. Run `main.py`
+
+Outputs like:
+```
+{'qhead': 'D:\\QQ-Essence-Graber-main\\3180xxx446.jpg', 'qaccount': '3180785446', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
+{'qhead': 'D:\\QQ-Essence-Graber-main\\2704xxx639.jpg', 'qaccount': '2704428639', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
+{'qhead': 'D:\\QQ-Essence-Graber-main\\3180xxx446.jpg', 'qaccount': '3180785446', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
+```
 
 ## connect
 (Origin Author)

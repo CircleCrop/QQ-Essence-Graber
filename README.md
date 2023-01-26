@@ -12,9 +12,9 @@
 
 Outputs like:
 ```
-{'qhead': 'D:\\QQ-Essence-Graber-main\\3180xxx446.jpg', 'qaccount': '3180785446', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
-{'qhead': 'D:\\QQ-Essence-Graber-main\\2704xxx639.jpg', 'qaccount': '2704428639', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
-{'qhead': 'D:\\QQ-Essence-Graber-main\\3180xxx446.jpg', 'qaccount': '3180785446', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
+{'qhead': 'D:\\QQ-Essence-Graber-main\\3180xxx446.jpg', 'qaccount': '3180xxx446', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
+{'qhead': 'D:\\QQ-Essence-Graber-main\\2704xxx639.jpg', 'qaccount': '2704xxx639', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
+{'qhead': 'D:\\QQ-Essence-Graber-main\\3180xxx446.jpg', 'qaccount': '3180xxx446', 'qname': 'xxx', 'send_date': '01-25', 'set_admin': 'xxx', 'set_date': '01-25', 'content': 'xxx'},
 ```
 
 ## connect

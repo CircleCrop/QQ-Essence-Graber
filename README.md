@@ -11,6 +11,8 @@
 2. Run `main.py`
 
 ## connect
-(Main Author)
+(Origin Author)
 <br>Discord：Time#4381
 <br>QQ: 583416178
+
+CircleCrop: circlecrop@outlook.com

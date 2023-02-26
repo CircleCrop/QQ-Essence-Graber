@@ -2,8 +2,7 @@
 
 ## Requirements:
 
-* Windows
-* Python3 + requests + lxml
+* Python3 with `requests`  `lxml`
 
 ## Usage:
 1. Change `cookie` `group_id` in  `main.py` .<br>
